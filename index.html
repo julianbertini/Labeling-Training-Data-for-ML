@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../static/main.js?version=75"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/main.css?version=50">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center justify-content-start">
+            <div class="col-md-auto">
+                    <h5 class="entity-titles">Text</h5>
+                    <p id="text">Loading text...</p>
+             </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <h3 class="entity-titles">Possible Entity</h3>
+        </div>
+        <div id="entity-text-row" class="row align-items-center justify-content-center">
+            <div id="entity-text-col" class="col-md-auto">
+                <p id="entity-text">Loading entity...</p>
+                <div id="entity-spinner" class="spinner-grow" role="status">
+                </div>
+            </div>
+            <div class="col-md-auto">
+                <div class="input-group mb-3">
+                    <select id="label-select" class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <option value="ORG" selected>ORG</option>
+                        <option value="GPE">GPE</option>
+                        <option value="PERSON">PERSON</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="entity-text-row" class="row align-items-center justify-content-center">
+            <button type="button" id="back-button" class="btn btn-danger">Back</button>
+            <button type="button" id="next-button" class="btn btn-success">Accept</button>
+            <button type="button" id="skip-button" class="btn btn-info">Skip</button>
+        </div>
+        <div id="" class="row justify-content-end">
+            <button type="button" id="save-button" class="btn btn-light">Save</button>
+        </div>
+    </div>
+</body>
+</html>

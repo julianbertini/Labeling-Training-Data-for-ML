@@ -1,0 +1,45 @@
+.container {
+background:#ebebeb;
+margin-top:200px;
+padding: 20px;
+width: 800px;
+}
+.entity-text-row {
+    text-align: center;
+}
+.row {
+    padding: 20px;
+}
+#entity-text-col {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1.5px;
+    height: 38px;
+    padding-top: 4px;
+    margin-bottom: 16px;
+    border-color: ghostwhite;
+}
+.entity-titles {
+    border-bottom: ghostwhite;
+    border-bottom-style: groove;
+}
+.custom-select {
+    background-color: #ebebeb;
+    border-style: solid;
+    border-width: 2px;
+    border-color: ghostwhite;
+}
+.highlight {
+    background-color: yellow;
+    font-size: large;
+}
+
+#next-button, #back-button {
+    margin-right: 2px;
+}
+
+#entity-text {
+    font-size: large;
+    display: inline;
+    vertical-align: super;
+}
